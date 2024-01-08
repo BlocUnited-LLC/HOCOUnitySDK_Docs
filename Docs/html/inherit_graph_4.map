@@ -1,7 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_hoco_1_1_runtime_1_1_live_cloud_data.html" title="This is the Base class for all LiveData objects that are used in Cloud Databases, you can inherit fro..." alt="" coords="5,31,109,57"/>
-<area shape="rect" id="Node000001" href="$class_hoco_1_1_runtime_1_1_live_cell_data.html" title="The container for the live data of a cell that exists on the block chain and the database." alt="" coords="164,5,257,32"/>
-<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="123,30,163,24,164,29,124,36"/>
-<area shape="rect" id="Node000002" href="$class_hoco_1_1_runtime_1_1_live_player_data.html" title="This is the data class that is used to store the PlayerData in the Cloud Database...." alt="" coords="157,56,264,83"/>
-<area shape="poly" id="edge2_Node000000_Node000002" title=" " alt="" coords="124,52,157,58,156,63,123,58"/>
-</map>

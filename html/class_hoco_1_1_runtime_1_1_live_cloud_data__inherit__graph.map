@@ -1,0 +1,7 @@
+<map id="LiveCloudData" name="LiveCloudData">
+<area shape="rect" id="Node000001" title="This is the Base class for all LiveData objects that are used in Cloud Databases, you can inherit fro..." alt="" coords="61,5,165,32"/>
+<area shape="rect" id="Node000002" href="$class_hoco_1_1_runtime_1_1_live_cell_data.html" title="The container for the live data of a cell that exists on the block chain and the database." alt="" coords="5,80,98,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,46,64,81,60,78,90,42"/>
+<area shape="rect" id="Node000003" href="$class_hoco_1_1_runtime_1_1_live_player_data.html" title="This is the data class that is used to store the PlayerData in the Cloud Database...." alt="" coords="122,80,229,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="136,42,167,78,163,81,132,46"/>
+</map>
