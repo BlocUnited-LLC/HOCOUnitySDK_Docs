@@ -25,19 +25,18 @@
 var NAVTREE =
 [
   [ "HocoWeb3", "index.html", [
-    [ "HoneyComb SDK Documentation", "index.html", "index" ],
+    [ "HoneyComb SDK Documentation", "index.html", null ],
     [ "Getting Started", "getting_started.html", [
       [ "Getting Started with the HoneyComb SDK", "getting_started.html#autotoc_md0", [
         [ "Quick Start", "getting_started.html#autotoc_md1", [
           [ "🛠 Installation", "getting_started.html#autotoc_md2", [
-            [ "Step 1: UniTask - Async Made Easy", "getting_started.html#autotoc_md3", null ],
-            [ "Step 2: NewtonSoft.Json - Transform Your Data", "getting_started.html#autotoc_md4", null ]
+            [ "Step 1: UniTask - Async Made Easy", "getting_started.html#autotoc_md4", null ],
+            [ "Step 2: NewtonSoft.Json - Transform Your Data", "getting_started.html#autotoc_md6", null ]
           ] ],
-          [ "Step 3: Import your flavor of the HoneyComb SDK", "getting_started.html#autotoc_md5", null ]
+          [ "Step 3: Import your flavor of the HoneyComb SDK", "getting_started.html#autotoc_md8", null ]
         ] ]
       ] ]
     ] ],
-    [ "Advanced Usage", "advanced.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ]
     ] ],
@@ -57,7 +56,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"advanced.html"
+"annotated.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

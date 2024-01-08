@@ -5,7 +5,7 @@
 #---------------------------------------------------------------------------
 DOXYFILE_ENCODING      = UTF-8
 PROJECT_NAME           = "HocoWeb3" 
-PROJECT_NUMBER         = 0.12
+PROJECT_NUMBER         = 0.13
 PROJECT_BRIEF          = "A Web3 SDK provided by HoneyComb" 
 PROJECT_LOGO           = ./logo.drawio.svg
 PROJECT_ICON           =
@@ -214,13 +214,13 @@ IGNORE_PREFIX          =
 # Configuration options related to the HTML output
 #---------------------------------------------------------------------------
 GENERATE_HTML          = YES
-HTML_OUTPUT            = html
+HTML_OUTPUT            = docs
 HTML_FILE_EXTENSION    = .html
-HTML_HEADER            = C:/GitProjects/HOCOUnitySDK/Docs/html/header.html 
+HTML_HEADER            = C:/GitProjects/HOCOUnitySDK/Docs/docs/header.html 
 HTML_FOOTER            =
 HTML_STYLESHEET        =
-HTML_EXTRA_STYLESHEET  = C:/GitProjects/HOCOUnitySDK/Docs/html/doxygen-awesome.css C:/GitProjects/HOCOUnitySDK/Docs/html/doxygen-custom.css C:/GitProjects/HOCOUnitySDK/Docs/html/doxygen-awesome-sidebar-only.css C:/GitProjects/HOCOUnitySDK/Docs/html/doxygen-awesome-sidebar-only-darkmode-toggle.css
-HTML_EXTRA_FILES       = C:/GitProjects/HOCOUnitySDK/Docs/html/doxygen-awesome-darkmode-toggle.js C:/GitProjects/HOCOUnitySDK/Docs/html/doxygen-awesome-fragment-copy-button.js C:/GitProjects/HOCOUnitySDK/Docs/html/doxygen-awesome-paragraph-link.js C:/GitProjects/HOCOUnitySDK/Docs/html/doxygen-awesome-interactive-toc.js C:/GitProjects/HOCOUnitySDK/Docs/html/doxygen-awesome-tabs.js
+HTML_EXTRA_STYLESHEET  = C:/GitProjects/HOCOUnitySDK/Docs/docs/doxygen-awesome.css C:/GitProjects/HOCOUnitySDK/Docs/docs/doxygen-custom.css C:/GitProjects/HOCOUnitySDK/Docs/docs/doxygen-awesome-sidebar-only.css C:/GitProjects/HOCOUnitySDK/Docs/docs/doxygen-awesome-sidebar-only-darkmode-toggle.css
+HTML_EXTRA_FILES       = C:/GitProjects/HOCOUnitySDK/Docs/docs/doxygen-awesome-darkmode-toggle.js C:/GitProjects/HOCOUnitySDK/Docs/docs/doxygen-awesome-fragment-copy-button.js C:/GitProjects/HOCOUnitySDK/Docs/docs/doxygen-awesome-paragraph-link.js C:/GitProjects/HOCOUnitySDK/Docs/docs/doxygen-awesome-interactive-toc.js C:/GitProjects/HOCOUnitySDK/Docs/docs/doxygen-awesome-tabs.js
 HTML_COLORSTYLE        = LIGHT
 HTML_COLORSTYLE_HUE    = 209
 HTML_COLORSTYLE_SAT    = 255

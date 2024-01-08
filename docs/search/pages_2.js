@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['getting_20started_0',['Getting Started',['../getting_started.html',1,'']]]
+  ['honeycomb_20sdk_20documentation_0',['HoneyComb SDK Documentation',['../index.html',1,'']]]
 ];
