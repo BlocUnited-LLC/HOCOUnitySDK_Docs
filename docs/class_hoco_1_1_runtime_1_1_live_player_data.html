@@ -147,8 +147,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a5869f43571e8fb1407934711de5be380"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3cc33f1a9160beec7532e3508ecd8400" id="r_a3cc33f1a9160beec7532e3508ecd8400"><td class="memItemLeft" align="right" valign="top">static async UniTask&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3cc33f1a9160beec7532e3508ecd8400">Delete</a> (<a class="el" href="class_hoco_1_1_runtime_1_1_live_player_data.html">LivePlayerData</a> dedData)</td></tr>
 <tr class="separator:a3cc33f1a9160beec7532e3508ecd8400"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa394a9e3b7994b9c51e23d9f4f7d453e" id="r_aa394a9e3b7994b9c51e23d9f4f7d453e"><td class="memItemLeft" align="right" valign="top">static async UniTask&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa394a9e3b7994b9c51e23d9f4f7d453e">Create</a> (<a class="el" href="class_hoco_1_1_runtime_1_1_player_data.html">PlayerData</a> newData)</td></tr>
-<tr class="separator:aa394a9e3b7994b9c51e23d9f4f7d453e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5aa04212627aa21fd0ebfcda69bcb09a" id="r_a5aa04212627aa21fd0ebfcda69bcb09a"><td class="memItemLeft" align="right" valign="top">static async UniTask&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5aa04212627aa21fd0ebfcda69bcb09a">Create</a> (<a class="el" href="class_hoco_1_1_runtime_1_1_player_data.html">PlayerData</a> newPlayerData)</td></tr>
+<tr class="memdesc:a5aa04212627aa21fd0ebfcda69bcb09a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create new PlayerData which will wrap the PlayerData into a LivePlayerData and store it in the Cloud Database.  <br /></td></tr>
+<tr class="separator:a5aa04212627aa21fd0ebfcda69bcb09a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -275,8 +276,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="aa394a9e3b7994b9c51e23d9f4f7d453e" name="aa394a9e3b7994b9c51e23d9f4f7d453e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa394a9e3b7994b9c51e23d9f4f7d453e">&#9670;&#160;</a></span>Create()</h2>
+<a id="a5aa04212627aa21fd0ebfcda69bcb09a" name="a5aa04212627aa21fd0ebfcda69bcb09a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5aa04212627aa21fd0ebfcda69bcb09a">&#9670;&#160;</a></span>Create()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -287,7 +288,7 @@ Properties</h2></td></tr>
         <tr>
           <td class="memname">static async UniTask&lt; bool &gt; Create </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_hoco_1_1_runtime_1_1_player_data.html">PlayerData</a></td>          <td class="paramname"><span class="paramname"><em>newData</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="class_hoco_1_1_runtime_1_1_player_data.html">PlayerData</a></td>          <td class="paramname"><span class="paramname"><em>newPlayerData</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -298,6 +299,15 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Create new PlayerData which will wrap the PlayerData into a LivePlayerData and store it in the Cloud Database. </p>
+<p>This is how you would Create(PlayerData) new PlayerData in your Mongo Database. </p><div class="fragment"><div class="line">var success = await Cloud.CloudBase&lt;<span class="keywordtype">bool</span>&gt;.Create&lt;<a class="code hl_class" href="class_hoco_1_1_runtime_1_1_player_data.html">PlayerData</a>&gt;(newPlayerData, k_storageKey);</div>
+<div class="line"><span class="keywordflow">if</span>(success)                                                                    <span class="comment">//Data was created and stored in Database, you can now invoke &lt;see cref=&quot;GetFromPlayerAddress(string)&quot;/&gt; </span></div>
+<div class="line">  Debug.Log(<span class="stringliteral">&quot;PlayerData Created!&quot;</span>);                           <span class="comment">//using the same &lt;see cref=&quot;PlayerData.PlayerAddress&quot;/&gt; you just pushed to the Database</span></div>
+<div class="line"><span class="keywordflow">else</span> <span class="comment">//Creating Failed, No WAN, or bad config</span></div>
+<div class="line">  Debug.Log(<span class="stringliteral">&quot;PlayerData Failed to Create :(&quot;</span>);</div>
+<div class="line">YourClass.YourMethod();</div>
+<div class="ttc" id="aclass_hoco_1_1_runtime_1_1_player_data_html"><div class="ttname"><a href="class_hoco_1_1_runtime_1_1_player_data.html">Hoco.Runtime.PlayerData</a></div><div class="ttdoc">This is a PlayerData class provided by the HocoSDK. You can use this to store data about your player ...</div><div class="ttdef"><b>Definition</b> PlayerData.cs:6</div></div>
+</div><!-- fragment --> 
 <p class="reference">Referenced by <a class="el" href="class_hoco_1_1_editor_1_1_test_case_1_1_player_data_test_case.html#a406f7591ef8106ea6e2d90349b9bf6db">PlayerDataTestCase.TestPlayerData()</a>.</p>
 
 </div>

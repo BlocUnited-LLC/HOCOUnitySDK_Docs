@@ -11,7 +11,7 @@ var searchData=
   ['cloudbase_8',['CloudBase',['../class_hoco_1_1_cloud_1_1_cloud_base.html',1,'Hoco::Cloud']]],
   ['cloudbasesettings_9',['CloudBaseSettings',['../class_hoco_1_1_cloud_1_1_cloud_base_settings.html',1,'Hoco::Cloud']]],
   ['cloudinstance_10',['CloudInstance',['../class_hoco_1_1_cloud_1_1_cloud_instance.html',1,'Hoco::Cloud']]],
-  ['create_11',['Create',['../class_hoco_1_1_cloud_1_1_cloud_base.html#af64000efab3a210a2ff966d2d0b5ea35',1,'Hoco.Cloud.CloudBase.Create()'],['../class_hoco_1_1_cloud_1_1_cloud_instance.html#af64000efab3a210a2ff966d2d0b5ea35',1,'Hoco.Cloud.CloudInstance.Create()'],['../class_hoco_1_1_runtime_1_1_live_player_data.html#aa394a9e3b7994b9c51e23d9f4f7d453e',1,'Hoco.Runtime.LivePlayerData.Create()']]],
+  ['create_11',['Create',['../class_hoco_1_1_cloud_1_1_cloud_base.html#af64000efab3a210a2ff966d2d0b5ea35',1,'Hoco.Cloud.CloudBase.Create()'],['../class_hoco_1_1_cloud_1_1_cloud_instance.html#af64000efab3a210a2ff966d2d0b5ea35',1,'Hoco.Cloud.CloudInstance.Create()'],['../class_hoco_1_1_runtime_1_1_live_player_data.html#a5aa04212627aa21fd0ebfcda69bcb09a',1,'Hoco.Runtime.LivePlayerData.Create()']]],
   ['createendpoint_12',['CreateEndPoint',['../class_hoco_1_1_cloud_1_1_cloud_base_settings.html#a66d55eeea56d2486bc922a665c5854fb',1,'Hoco::Cloud::CloudBaseSettings']]],
   ['createurl_13',['CreateURL',['../class_hoco_1_1_cloud_1_1_cloud_base_settings.html#a42f14ef345cf7dc88409d928fd5512e1',1,'Hoco::Cloud::CloudBaseSettings']]]
 ];
