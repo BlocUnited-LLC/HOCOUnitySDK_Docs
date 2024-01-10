@@ -184,54 +184,6 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A Cell is a point in worldspace that uses properties to define its Positio, Bounds and other features. The Cell is meant to be a persistant object that lives on the block chain as a NFT, but the data in this class can be used as metadata to allow the players to nteract with this persistant instance of a Cell. </p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="abd559e54c0dcdec55c5bc29766699929" name="abd559e54c0dcdec55c5bc29766699929"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd559e54c0dcdec55c5bc29766699929">&#9670;&#160;</a></span>Raduis</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int Raduis = 100</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The radius of a cel determines how big the cell is in worldspace. </p>
-
-</div>
-</div>
-<a id="a2f968f8e34de6c31cdd3117e30e6be53" name="a2f968f8e34de6c31cdd3117e30e6be53"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f968f8e34de6c31cdd3117e30e6be53">&#9670;&#160;</a></span>TowerId</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">string TowerId = string.Empty</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>This is the UniqueId among the whole project It is made out of the FloorId_BlocId combo and formated to fit A cell with a BlocId of 300 on floor 20 will have the TowerId of 020_0300. </p>
-
-</div>
-</div>
-<a id="a5685256eed737f59ca2b549346345436" name="a5685256eed737f59ca2b549346345436"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5685256eed737f59ca2b549346345436">&#9670;&#160;</a></span>FloorId</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int FloorId = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>This is the Floor Index that the Cell lives on. </p>
-
-</div>
-</div>
 <a id="a4c6c4651ac9ba549e456193f7bb8b952" name="a4c6c4651ac9ba549e456193f7bb8b952"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4c6c4651ac9ba549e456193f7bb8b952">&#9670;&#160;</a></span>BlocId</h2>
 
@@ -248,54 +200,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ae9e581c25b5c97934bd7c7c45cdb695e" name="ae9e581c25b5c97934bd7c7c45cdb695e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9e581c25b5c97934bd7c7c45cdb695e">&#9670;&#160;</a></span>GridId</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int GridId = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The id of the grid that this cell lives in. </p>
-
-</div>
-</div>
-<a id="a6d96fdc334c392c7a45758ab39a7a017" name="a6d96fdc334c392c7a45758ab39a7a017"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d96fdc334c392c7a45758ab39a7a017">&#9670;&#160;</a></span>GridColumn</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int GridColumn = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The Column Index on its current grid and ranges from 0 - ColumnCount. </p>
-
-</div>
-</div>
-<a id="aa62985e262f1915266eb5ea2e79bd174" name="aa62985e262f1915266eb5ea2e79bd174"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa62985e262f1915266eb5ea2e79bd174">&#9670;&#160;</a></span>GridRow</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int GridRow = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The Row Index on its current grid and ranges from 0 - RowCount. </p>
-
-</div>
-</div>
 <a id="a2d541a1651d21119f879ed91a3eaf331" name="a2d541a1651d21119f879ed91a3eaf331"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2d541a1651d21119f879ed91a3eaf331">&#9670;&#160;</a></span>CellId</h2>
 
@@ -309,6 +213,20 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The id of this cell relative to the grid it lives in. </p>
+
+</div>
+</div>
+<a id="a008b35fbbdc9b6b9493336f96e70b348" name="a008b35fbbdc9b6b9493336f96e70b348"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a008b35fbbdc9b6b9493336f96e70b348">&#9670;&#160;</a></span>CellPosition</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_hoco_1_1_data_1_1_cell_position.html">CellPosition</a> <a class="el" href="class_hoco_1_1_data_1_1_cell_position.html">CellPosition</a> = new <a class="el" href="class_hoco_1_1_data_1_1_cell_position.html">CellPosition</a>()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -342,20 +260,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a008b35fbbdc9b6b9493336f96e70b348" name="a008b35fbbdc9b6b9493336f96e70b348"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a008b35fbbdc9b6b9493336f96e70b348">&#9670;&#160;</a></span>CellPosition</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_hoco_1_1_data_1_1_cell_position.html">CellPosition</a> <a class="el" href="class_hoco_1_1_data_1_1_cell_position.html">CellPosition</a> = new <a class="el" href="class_hoco_1_1_data_1_1_cell_position.html">CellPosition</a>()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ace0a08504a03a0cf9eceeff91e7b6f9f" name="ace0a08504a03a0cf9eceeff91e7b6f9f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ace0a08504a03a0cf9eceeff91e7b6f9f">&#9670;&#160;</a></span>CellTerritory</h2>
 
@@ -369,6 +273,102 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>0 = Default mintable cell, 1 = Town/Entrance cell, 2 = Elevator/Exit Cell, 3 = Boss Cell </p>
+
+</div>
+</div>
+<a id="a5685256eed737f59ca2b549346345436" name="a5685256eed737f59ca2b549346345436"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5685256eed737f59ca2b549346345436">&#9670;&#160;</a></span>FloorId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int FloorId = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This is the Floor Index that the Cell lives on. </p>
+
+</div>
+</div>
+<a id="a6d96fdc334c392c7a45758ab39a7a017" name="a6d96fdc334c392c7a45758ab39a7a017"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d96fdc334c392c7a45758ab39a7a017">&#9670;&#160;</a></span>GridColumn</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int GridColumn = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The Column Index on its current grid and ranges from 0 - ColumnCount. </p>
+
+</div>
+</div>
+<a id="ae9e581c25b5c97934bd7c7c45cdb695e" name="ae9e581c25b5c97934bd7c7c45cdb695e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9e581c25b5c97934bd7c7c45cdb695e">&#9670;&#160;</a></span>GridId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int GridId = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The id of the grid that this cell lives in. </p>
+
+</div>
+</div>
+<a id="aa62985e262f1915266eb5ea2e79bd174" name="aa62985e262f1915266eb5ea2e79bd174"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa62985e262f1915266eb5ea2e79bd174">&#9670;&#160;</a></span>GridRow</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int GridRow = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The Row Index on its current grid and ranges from 0 - RowCount. </p>
+
+</div>
+</div>
+<a id="abd559e54c0dcdec55c5bc29766699929" name="abd559e54c0dcdec55c5bc29766699929"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd559e54c0dcdec55c5bc29766699929">&#9670;&#160;</a></span>Raduis</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Raduis = 100</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The radius of a cel determines how big the cell is in worldspace. </p>
+
+</div>
+</div>
+<a id="a2f968f8e34de6c31cdd3117e30e6be53" name="a2f968f8e34de6c31cdd3117e30e6be53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f968f8e34de6c31cdd3117e30e6be53">&#9670;&#160;</a></span>TowerId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string TowerId = string.Empty</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This is the UniqueId among the whole project It is made out of the FloorId_BlocId combo and formated to fit A cell with a BlocId of 300 on floor 20 will have the TowerId of 020_0300. </p>
 
 </div>
 </div>
