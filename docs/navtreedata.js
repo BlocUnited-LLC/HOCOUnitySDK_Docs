@@ -25,7 +25,6 @@
 var NAVTREE =
 [
   [ "HocoWeb3", "index.html", [
-    [ "HoneyComb SDK Documentation", "index.html", null ],
     [ "Getting Started", "getting_started.html", [
       [ "Getting Started with the HoneyComb SDK", "getting_started.html#autotoc_md0", [
         [ "Quick Start", "getting_started.html#autotoc_md1", [
