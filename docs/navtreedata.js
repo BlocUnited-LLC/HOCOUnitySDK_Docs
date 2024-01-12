@@ -36,6 +36,9 @@ var NAVTREE =
         ] ]
       ] ]
     ] ],
+    [ "README", "md__c_1_2_git_projects_2_h_o_c_o_unity_s_d_k_2_assets_2_plugins_2_hoco_unity_s_d_k_2_r_e_a_d_m_e.html", [
+      [ "HOCOUnitySDK", "md__c_1_2_git_projects_2_h_o_c_o_unity_s_d_k_2_assets_2_plugins_2_hoco_unity_s_d_k_2_r_e_a_d_m_e.html#autotoc_md14", null ]
+    ] ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ]
     ] ],
