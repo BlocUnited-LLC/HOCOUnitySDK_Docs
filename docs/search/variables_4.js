@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['external_5furl_0',['external_url',['../class_hoco_1_1_data_1_1_n_f_t_data.html#ae207b3df74200e77fae3389a9fc73029',1,'Hoco::Data::NFTData']]]
+  ['floorid_0',['FloorId',['../class_hoco_1_1_data_1_1_cell_data.html#a5685256eed737f59ca2b549346345436',1,'Hoco::Data::CellData']]]
 ];

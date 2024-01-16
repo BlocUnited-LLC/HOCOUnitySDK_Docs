@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['hocoweb3_0',['HocoWeb3',['../index.html',1,'']]]
+  ['hoco_20unity_20sdk_0',['HOCO Unity SDK',['../index.html',1,'']]]
 ];

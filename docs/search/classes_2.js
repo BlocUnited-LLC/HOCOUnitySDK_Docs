@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['nftdata_0',['NFTData',['../class_hoco_1_1_data_1_1_n_f_t_data.html',1,'Hoco::Data']]]
+  ['hocosdkeditorsettings_0',['HocoSDKEditorSettings',['../class_hoco_1_1_editor_1_1_hoco_s_d_k_editor_settings.html',1,'Hoco::Editor']]],
+  ['hocosdkwindow_1',['HocoSDKWindow',['../class_hoco_1_1_editor_1_1_hoco_s_d_k_window.html',1,'Hoco::Editor']]]
 ];

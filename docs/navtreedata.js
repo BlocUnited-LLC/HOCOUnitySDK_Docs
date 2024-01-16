@@ -24,20 +24,22 @@
 */
 var NAVTREE =
 [
-  [ "HocoWeb3", "index.html", [
+  [ "HOCO Unity SDK", "index.html", [
     [ "Getting Started", "getting_started.html", [
-      [ "Getting Started with the HoneyComb SDK", "getting_started.html#autotoc_md0", [
-        [ "Quick Start", "getting_started.html#autotoc_md1", [
-          [ "🛠 Installation", "getting_started.html#autotoc_md2", [
-            [ "Step 1: UniTask - Async Made Easy", "getting_started.html#autotoc_md4", null ],
-            [ "Step 2: NewtonSoft.Json - Transform Your Data", "getting_started.html#autotoc_md6", null ]
-          ] ],
-          [ "Step 3: Import your flavor of the HoneyComb SDK", "getting_started.html#autotoc_md8", null ]
-        ] ]
-      ] ]
+      [ "Getting Started with the HoneyComb SDK", "getting_started.html#autotoc_md0", null ]
     ] ],
-    [ "README", "md__c_1_2_git_projects_2_h_o_c_o_unity_s_d_k_2_assets_2_plugins_2_hoco_unity_s_d_k_2_r_e_a_d_m_e.html", [
-      [ "HOCOUnitySDK", "md__c_1_2_git_projects_2_h_o_c_o_unity_s_d_k_2_assets_2_plugins_2_hoco_unity_s_d_k_2_r_e_a_d_m_e.html#autotoc_md14", null ]
+    [ "Project Setup", "project_setup.html", null ],
+    [ "Samples", "samples.html", [
+      [ "LivePlayerData", "samples.html#autotoc_md13", null ],
+      [ "PlayerData", "samples.html#autotoc_md14", null ]
+    ] ],
+    [ "Useful Links", "useful_links.html", [
+      [ "ThirdWeb/Unity SDK Github", "useful_links.html#autotoc_md15", null ],
+      [ "ThirdWeb/Sign-in With Wallet", "useful_links.html#autotoc_md16", null ],
+      [ "ThirdWeb/ConnectWallet Prefab", "useful_links.html#autotoc_md17", null ]
+    ] ],
+    [ "README", "md__c_1_2_git_projects_2_h_o_c_o_unity_s_d_k_2_assets_2_plugins_2_hoco_s_d_k_2_r_e_a_d_m_e.html", [
+      [ "HOCOUnitySDK", "md__c_1_2_git_projects_2_h_o_c_o_unity_s_d_k_2_assets_2_plugins_2_hoco_s_d_k_2_r_e_a_d_m_e.html#autotoc_md18", null ]
     ] ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ]

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['updateurl_0',['UpdateURL',['../class_hoco_1_1_cloud_1_1_cloud_base_settings.html#a06f82c27e235ac0e7579557f6810b11c',1,'Hoco::Cloud::CloudBaseSettings']]]
+  ['level_0',['Level',['../class_hoco_1_1_runtime_1_1_player_data.html#a879a93f9d2ab803bb4ca7f9bd55e52f8',1,'Hoco::Runtime::PlayerData']]]
 ];

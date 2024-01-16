@@ -4,8 +4,8 @@
 # Project related configuration options
 #---------------------------------------------------------------------------
 DOXYFILE_ENCODING      = UTF-8
-PROJECT_NAME           = "HocoWeb3" 
-PROJECT_NUMBER         = 0.13
+PROJECT_NAME           = "HOCO Unity SDK" 
+PROJECT_NUMBER         = 0.0.14-Alpha
 PROJECT_BRIEF          = "A Web3 SDK provided by HoneyComb" 
 PROJECT_LOGO           = ./logo.drawio.svg
 PROJECT_ICON           =
@@ -125,7 +125,7 @@ WARN_LOGFILE           =
 #---------------------------------------------------------------------------
 # Configuration options related to the input files
 #---------------------------------------------------------------------------
-INPUT                  = "C:\GitProjects\HOCOUnitySDK\Assets\Plugins\HocoUnitySDK" 
+INPUT                  = "C:\GitProjects\HOCOUnitySDK\Assets\Plugins\HocoSDK" 
                          
 INPUT_ENCODING         = UTF-8
 INPUT_FILE_ENCODING    =

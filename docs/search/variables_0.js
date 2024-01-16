@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['apiserverurl_0',['ApiServerUrl',['../class_hoco_1_1_cloud_1_1_cloud_base_settings.html#a6ca0d46cfc8f5418c7600b8cdc51fd41',1,'Hoco::Cloud::CloudBaseSettings']]]
+  ['blocid_0',['BlocId',['../class_hoco_1_1_data_1_1_cell_data.html#a4c6c4651ac9ba549e456193f7bb8b952',1,'Hoco::Data::CellData']]]
 ];

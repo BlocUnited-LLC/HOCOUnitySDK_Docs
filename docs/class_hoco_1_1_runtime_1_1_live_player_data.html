@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HocoWeb3: LivePlayerData</title>
+<title>HOCO Unity SDK: LivePlayerData</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -52,7 +52,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">HocoWeb3<span id="projectnumber">&#160;0.13</span>
+   <div id="projectname">HOCO Unity SDK<span id="projectnumber">&#160;0.0.14-Alpha</span>
    </div>
    <div id="projectbrief">A Web3 SDK provided by HoneyComb</div>
   </td>
@@ -214,7 +214,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="class_hoco_1_1_editor_1_1_test_case_1_1_player_data_test_case.html#a406f7591ef8106ea6e2d90349b9bf6db">PlayerDataTestCase.TestPlayerData()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="class_hoco_1_1_editor_1_1_test_case_1_1_player_data_test.html#a406f7591ef8106ea6e2d90349b9bf6db">PlayerDataTest.TestPlayerData()</a>.</p>
 
 </div>
 </div>
@@ -243,7 +243,7 @@ Properties</h2></td></tr>
 
 <p class="reference">References <a class="el" href="class_hoco_1_1_runtime_1_1_live_cloud_data.html#a186291c875988107b7ace745ea84d4ec">LiveCloudData.Id</a>, <a class="el" href="#a3efec16465f1dbaabe1d4e473935dd4b">LivePlayerData.LivePlayerData()</a>, and <a class="el" href="#a26e6dca1df32264be3e16270af249588">LivePlayerData.PlayerData</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="class_hoco_1_1_editor_1_1_test_case_1_1_player_data_test_case.html#a406f7591ef8106ea6e2d90349b9bf6db">PlayerDataTestCase.TestPlayerData()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="class_hoco_1_1_editor_1_1_test_case_1_1_player_data_test.html#a406f7591ef8106ea6e2d90349b9bf6db">PlayerDataTest.TestPlayerData()</a>.</p>
 
 </div>
 </div>
@@ -272,7 +272,7 @@ Properties</h2></td></tr>
 
 <p class="reference">References <a class="el" href="#a3cc33f1a9160beec7532e3508ecd8400">LivePlayerData.Delete()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="#a3cc33f1a9160beec7532e3508ecd8400">LivePlayerData.Delete()</a>, and <a class="el" href="class_hoco_1_1_editor_1_1_test_case_1_1_player_data_test_case.html#a406f7591ef8106ea6e2d90349b9bf6db">PlayerDataTestCase.TestPlayerData()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="#a3cc33f1a9160beec7532e3508ecd8400">LivePlayerData.Delete()</a>, and <a class="el" href="class_hoco_1_1_editor_1_1_test_case_1_1_player_data_test.html#a406f7591ef8106ea6e2d90349b9bf6db">PlayerDataTest.TestPlayerData()</a>.</p>
 
 </div>
 </div>
@@ -300,7 +300,7 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Create new PlayerData which will wrap the PlayerData into a LivePlayerData and store it in the Cloud Database. </p>
-<p>This is how you would Create(PlayerData) new PlayerData in your Mongo Database. </p><div class="fragment"><div class="line">var success = await Cloud.CloudBase&lt;<span class="keywordtype">bool</span>&gt;.Create&lt;<a class="code hl_class" href="class_hoco_1_1_runtime_1_1_player_data.html">PlayerData</a>&gt;(newPlayerData, k_storageKey);</div>
+<p>This is how you would Create(PlayerData) new PlayerData in your Mongo Database. </p><div class="fragment"><div class="line">var success = await Cloud.CloudAPI&lt;<span class="keywordtype">bool</span>&gt;.Create&lt;<a class="code hl_class" href="class_hoco_1_1_runtime_1_1_player_data.html">PlayerData</a>&gt;(newPlayerData, k_storageKey);</div>
 <div class="line"><span class="keywordflow">if</span>(success)                                                                    <span class="comment">//Data was created and stored in Database, you can now invoke &lt;see cref=&quot;GetFromPlayerAddress(string)&quot;/&gt; </span></div>
 <div class="line">  Debug.Log(<span class="stringliteral">&quot;PlayerData Created!&quot;</span>);                           <span class="comment">//using the same &lt;see cref=&quot;PlayerData.PlayerAddress&quot;/&gt; you just pushed to the Database</span></div>
 <div class="line"><span class="keywordflow">else</span> <span class="comment">//Creating Failed, No WAN, or bad config</span></div>
@@ -308,7 +308,7 @@ Properties</h2></td></tr>
 <div class="line">YourClass.YourMethod();</div>
 <div class="ttc" id="aclass_hoco_1_1_runtime_1_1_player_data_html"><div class="ttname"><a href="class_hoco_1_1_runtime_1_1_player_data.html">Hoco.Runtime.PlayerData</a></div><div class="ttdoc">This is a PlayerData class provided by the HocoSDK. You can use this to store data about your player ...</div><div class="ttdef"><b>Definition</b> PlayerData.cs:6</div></div>
 </div><!-- fragment --> 
-<p class="reference">Referenced by <a class="el" href="class_hoco_1_1_editor_1_1_test_case_1_1_player_data_test_case.html#a406f7591ef8106ea6e2d90349b9bf6db">PlayerDataTestCase.TestPlayerData()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="class_hoco_1_1_editor_1_1_test_case_1_1_player_data_test.html#a406f7591ef8106ea6e2d90349b9bf6db">PlayerDataTest.TestPlayerData()</a>.</p>
 
 </div>
 </div>
@@ -333,7 +333,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="class_hoco_1_1_editor_1_1_test_case_1_1_player_data_test_case.html#a7e4dba863a643834b267d12ea0834acc">PlayerDataTestCase.ModifyPlayerData()</a>, and <a class="el" href="#a5869f43571e8fb1407934711de5be380">LivePlayerData.Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="class_hoco_1_1_editor_1_1_test_case_1_1_player_data_test.html#a7e4dba863a643834b267d12ea0834acc">PlayerDataTest.ModifyPlayerData()</a>, and <a class="el" href="#a5869f43571e8fb1407934711de5be380">LivePlayerData.Update()</a>.</p>
 
 </div>
 </div>

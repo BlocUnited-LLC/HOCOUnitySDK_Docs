@@ -5,5 +5,6 @@ var searchData=
   ['hoco_3a_3adata_2',['Data',['../namespace_hoco_1_1_data.html',1,'Hoco']]],
   ['hoco_3a_3aeditor_3',['Editor',['../namespace_hoco_1_1_editor.html',1,'Hoco']]],
   ['hoco_3a_3aeditor_3a_3atestcase_4',['TestCase',['../namespace_hoco_1_1_editor_1_1_test_case.html',1,'Hoco::Editor']]],
-  ['hoco_3a_3aruntime_5',['Runtime',['../namespace_hoco_1_1_runtime.html',1,'Hoco']]]
+  ['hoco_3a_3aruntime_5',['Runtime',['../namespace_hoco_1_1_runtime.html',1,'Hoco']]],
+  ['hoco_3a_3asamples_6',['Samples',['../namespace_hoco_1_1_samples.html',1,'Hoco']]]
 ];

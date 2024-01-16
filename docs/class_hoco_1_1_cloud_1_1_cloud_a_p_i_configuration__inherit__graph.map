@@ -1,0 +1,5 @@
+<map id="CloudAPIConfiguration" name="CloudAPIConfiguration">
+<area shape="rect" id="Node000001" title="A type of ScriptableSingleton that holds the CloudAPISettings for the Cloud API. A ScriptableObject w..." alt="" coords="17,96,168,123"/>
+<area shape="rect" id="Node000002" href="$class_hoco_1_1_scriptable_singleton.html" title=" " alt="" coords="5,5,180,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,64,95,95,90,95,90,64"/>
+</map>
