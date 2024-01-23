@@ -1,0 +1,7 @@
+<map id="BaseStats" name="BaseStats">
+<area shape="rect" id="Node000001" title=" " alt="" coords="77,5,159,32"/>
+<area shape="rect" id="Node000002" href="$class_hoco_1_1_samples_1_1_primary_stats.html" title="The Primary Stats for the game world." alt="" coords="5,80,103,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,46,67,81,63,78,95,42"/>
+<area shape="rect" id="Node000003" href="$class_hoco_1_1_samples_1_1_secondary_stats.html" title="The Secondary Stats for the game world that are calculated from the Primary Stats." alt="" coords="126,80,241,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="141,42,174,78,170,81,137,45"/>
+</map>

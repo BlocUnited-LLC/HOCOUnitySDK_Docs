@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['selected_0',['Selected',['../class_hoco_1_1_cloud_1_1_cloud_a_p_i_configuration.html#a563fe5c40fdf0e7442e519c3364fa5ad',1,'Hoco::Cloud::CloudAPIConfiguration']]]
+  ['nftdata_0',['NFTData',['../class_hoco_1_1_samples_1_1_item_data.html#a2170734bcac7a81ae132919131825ce9',1,'Hoco::Samples::ItemData']]]
 ];

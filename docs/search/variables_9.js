@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['settings_0',['Settings',['../class_hoco_1_1_cloud_1_1_cloud_a_p_i_configuration.html#a9a84f6290e33d004bc00fe3b75694aae',1,'Hoco::Cloud::CloudAPIConfiguration']]]
+  ['raduis_0',['Raduis',['../class_hoco_1_1_samples_1_1_runtime_1_1_cell_data.html#abd559e54c0dcdec55c5bc29766699929',1,'Hoco::Samples::Runtime::CellData']]]
 ];

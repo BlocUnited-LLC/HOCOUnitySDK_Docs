@@ -1,0 +1,5 @@
+<map id="PrimaryStats" name="PrimaryStats">
+<area shape="rect" id="Node000001" title="The Primary Stats for the game world." alt="" coords="5,80,103,107"/>
+<area shape="rect" id="Node000002" href="$class_hoco_1_1_samples_1_1_base_stats.html" title=" " alt="" coords="13,5,95,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="57,48,57,80,51,80,51,48"/>
+</map>

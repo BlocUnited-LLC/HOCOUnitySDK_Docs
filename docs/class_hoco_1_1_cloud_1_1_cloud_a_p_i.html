@@ -52,7 +52,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">HOCO Unity SDK<span id="projectnumber">&#160;0.0.14-Alpha</span>
+   <div id="projectname">HOCO Unity SDK<span id="projectnumber">&#160;0.0.15-Alpha</span>
    </div>
    <div id="projectbrief">A Web3 SDK provided by HoneyComb</div>
   </td>
@@ -132,14 +132,16 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ad219bbac82dc564884a935ac64c40da9" id="r_ad219bbac82dc564884a935ac64c40da9"><td class="memItemLeft" align="right" valign="top">static async UniTask&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad219bbac82dc564884a935ac64c40da9">Get</a> (string filterProperty, string filterValue, string storageKey=&quot;NULL&quot;)</td></tr>
 <tr class="memdesc:ad219bbac82dc564884a935ac64c40da9"><td class="mdescLeft">&#160;</td><td class="mdescRight">This Method can only return a Live Data Instance type from the database. See LiveCloudData and inherit from it to make your own.  <br /></td></tr>
 <tr class="separator:ad219bbac82dc564884a935ac64c40da9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad355dd2fdeb858fb8a4cf8c2d76996f" id="r_aad355dd2fdeb858fb8a4cf8c2d76996f"><td class="memItemLeft" align="right" valign="top">static async UniTask&lt; T[]&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad355dd2fdeb858fb8a4cf8c2d76996f">GetAll</a> (string storageKey)</td></tr>
+<tr class="separator:aad355dd2fdeb858fb8a4cf8c2d76996f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a0130e875a7416f3c51fa1faa2bf7ce" id="r_a4a0130e875a7416f3c51fa1faa2bf7ce"><td class="memItemLeft" align="right" valign="top">static async UniTask&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a0130e875a7416f3c51fa1faa2bf7ce">Update&lt; TInput &gt;</a> (TInput instanceData, string instanceId, string storageKey=&quot;NULL&quot;)</td></tr>
 <tr class="separator:a4a0130e875a7416f3c51fa1faa2bf7ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d06d72b9f816c01e1cc941557625bc0" id="r_a5d06d72b9f816c01e1cc941557625bc0"><td class="memItemLeft" align="right" valign="top">static async UniTask&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d06d72b9f816c01e1cc941557625bc0">Update</a> (<a class="el" href="class_hoco_1_1_runtime_1_1_live_cloud_data.html">LiveCloudData</a> modifiedInstance, string storageKey=&quot;NULL&quot;)</td></tr>
+<tr class="memitem:a5d06d72b9f816c01e1cc941557625bc0" id="r_a5d06d72b9f816c01e1cc941557625bc0"><td class="memItemLeft" align="right" valign="top">static async UniTask&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d06d72b9f816c01e1cc941557625bc0">Update</a> (<a class="el" href="class_hoco_1_1_cloud_1_1_live_cloud_data.html">LiveCloudData</a> modifiedInstance, string storageKey=&quot;NULL&quot;)</td></tr>
 <tr class="separator:a5d06d72b9f816c01e1cc941557625bc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af64000efab3a210a2ff966d2d0b5ea35" id="r_af64000efab3a210a2ff966d2d0b5ea35"><td class="memItemLeft" align="right" valign="top">static async UniTask&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af64000efab3a210a2ff966d2d0b5ea35">Create</a> (T newData, string storageKey=&quot;NULL&quot;)</td></tr>
-<tr class="memdesc:af64000efab3a210a2ff966d2d0b5ea35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Things to know to use this function: Make sure the Data fed in is a Root class of the data that is to be added to a LiveCloudData. For example, to send PlayerData as used in <a class="el" href="class_hoco_1_1_runtime_1_1_live_player_data.html#a26e6dca1df32264be3e16270af249588">LivePlayerData.PlayerData</a>, You must only send the given PlayerData through this function. To try and be even more clear. This function will create the LiveCloudData version of PlayerData when you send it through this function, the result is what LivePlayerData is.  <br /></td></tr>
+<tr class="memdesc:af64000efab3a210a2ff966d2d0b5ea35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Things to know to use this function: Make sure the Data fed in is a Root class of the data that is to be added to a LiveCloudData. For example, to send PlayerData as used in LivePlayerData.PlayerData, You must only send the given PlayerData through this function. To try and be even more clear. This function will create the LiveCloudData version of PlayerData when you send it through this function, the result is what LivePlayerData is.  <br /></td></tr>
 <tr class="separator:af64000efab3a210a2ff966d2d0b5ea35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7b635b70593ff1a7c13db5c8df8002e" id="r_ac7b635b70593ff1a7c13db5c8df8002e"><td class="memItemLeft" align="right" valign="top">static async UniTask&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7b635b70593ff1a7c13db5c8df8002e">Delete</a> (<a class="el" href="class_hoco_1_1_runtime_1_1_live_cloud_data.html">LiveCloudData</a> existingInstance, string storageKey=&quot;NULL&quot;)</td></tr>
+<tr class="memitem:ac7b635b70593ff1a7c13db5c8df8002e" id="r_ac7b635b70593ff1a7c13db5c8df8002e"><td class="memItemLeft" align="right" valign="top">static async UniTask&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7b635b70593ff1a7c13db5c8df8002e">Delete</a> (<a class="el" href="class_hoco_1_1_cloud_1_1_live_cloud_data.html">LiveCloudData</a> existingInstance, string storageKey=&quot;NULL&quot;)</td></tr>
 <tr class="separator:ac7b635b70593ff1a7c13db5c8df8002e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -194,13 +196,42 @@ Static Public Member Functions</h2></td></tr>
 <p>This Method can only return a Live Data Instance type from the database. See LiveCloudData and inherit from it to make your own. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">filterProperty</td><td>The relative Property to the returned type to filter by, like '<a class="el" href="class_hoco_1_1_runtime_1_1_player_data.html#ad7d7a49ef737001922b4bb8f8e26ddf0" title="The WalletAddress of the Player which is also used as a Unique Identifier for the Player.">PlayerData.PlayerAddress</a>' if returning LivePlayerData</td></tr>
-    <tr><td class="paramname">filterValue</td><td>The relative Property Value to filter by, if lookine for '<a class="el" href="class_hoco_1_1_runtime_1_1_player_data.html#ad7d7a49ef737001922b4bb8f8e26ddf0" title="The WalletAddress of the Player which is also used as a Unique Identifier for the Player.">PlayerData.PlayerAddress</a>' then you feed in a PlayerAddress string as the Value to return the LivePlayerData Instance containing that Address.</td></tr>
+    <tr><td class="paramname">filterProperty</td><td>The relative Property to the returned type to filter by, like 'PlayerData.PlayerAddress' if returning LivePlayerData</td></tr>
+    <tr><td class="paramname">filterValue</td><td>The relative Property Value to filter by, if lookine for 'PlayerData.PlayerAddress' then you feed in a PlayerAddress string as the Value to return the LivePlayerData Instance containing that Address.</td></tr>
     <tr><td class="paramname">storageKey</td><td>The Data store to search in.</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The existing Data on the Database or a new Instance with Null/Empty strings.</dd></dl>
+
+<p class="reference">Referenced by <a class="el" href="class_hoco_1_1_samples_1_1_runtime_1_1_live_player_data.html#a474dbd30f32d6ac95cdc7541c2828f81">LivePlayerData.GetByAddress()</a>, and <a class="el" href="class_hoco_1_1_samples_1_1_runtime_1_1_live_player_data.html#ac8c14fdcab92077ae030f283739c6683">LivePlayerData.GetOrCreateByAddress()</a>.</p>
+
+</div>
+</div>
+<a id="aad355dd2fdeb858fb8a4cf8c2d76996f" name="aad355dd2fdeb858fb8a4cf8c2d76996f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad355dd2fdeb858fb8a4cf8c2d76996f">&#9670;&#160;</a></span>GetAll()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static async UniTask&lt; T[]&gt; GetAll </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>storageKey</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="class_hoco_1_1_samples_1_1_runtime_1_1_live_item_box_data.html#a155a4ab77351a9a9fb2ba9f5a263e1f3">LiveItemBoxData.GetAll()</a>, and <a class="el" href="class_hoco_1_1_samples_1_1_runtime_1_1_live_player_data.html#afef9a0d99bb935fdb754793c2be1e98a">LivePlayerData.GetAll()</a>.</p>
 
 </div>
 </div>
@@ -259,7 +290,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">static async UniTask&lt; T &gt; Update </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_hoco_1_1_runtime_1_1_live_cloud_data.html">LiveCloudData</a></td>          <td class="paramname"><span class="paramname"><em>modifiedInstance</em>, </span></td>
+          <td class="paramtype"><a class="el" href="class_hoco_1_1_cloud_1_1_live_cloud_data.html">LiveCloudData</a></td>          <td class="paramname"><span class="paramname"><em>modifiedInstance</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -274,7 +305,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="class_hoco_1_1_runtime_1_1_live_cloud_data.html#a186291c875988107b7ace745ea84d4ec">LiveCloudData.Id</a>.</p>
+<p class="reference">References <a class="el" href="class_hoco_1_1_cloud_1_1_live_cloud_data.html#a186291c875988107b7ace745ea84d4ec">LiveCloudData.Id</a>.</p>
 
 </div>
 </div>
@@ -305,7 +336,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Things to know to use this function: Make sure the Data fed in is a Root class of the data that is to be added to a LiveCloudData. For example, to send PlayerData as used in <a class="el" href="class_hoco_1_1_runtime_1_1_live_player_data.html#a26e6dca1df32264be3e16270af249588">LivePlayerData.PlayerData</a>, You must only send the given PlayerData through this function. To try and be even more clear. This function will create the LiveCloudData version of PlayerData when you send it through this function, the result is what LivePlayerData is. </p>
+<p>Things to know to use this function: Make sure the Data fed in is a Root class of the data that is to be added to a LiveCloudData. For example, to send PlayerData as used in LivePlayerData.PlayerData, You must only send the given PlayerData through this function. To try and be even more clear. This function will create the LiveCloudData version of PlayerData when you send it through this function, the result is what LivePlayerData is. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">newData</td><td>This is the Raw Datatype that will be converted int o LiveCloudData</td></tr>
@@ -329,7 +360,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">static async UniTask&lt; bool &gt; Delete </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_hoco_1_1_runtime_1_1_live_cloud_data.html">LiveCloudData</a></td>          <td class="paramname"><span class="paramname"><em>existingInstance</em>, </span></td>
+          <td class="paramtype"><a class="el" href="class_hoco_1_1_cloud_1_1_live_cloud_data.html">LiveCloudData</a></td>          <td class="paramname"><span class="paramname"><em>existingInstance</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>

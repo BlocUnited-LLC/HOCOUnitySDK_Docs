@@ -1,3 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_hoco_1_1_data_1_1_cell_position.html" title=" " alt="" coords="5,5,96,32"/>
+<area shape="rect" id="Node000000" href="$class_hoco_1_1_samples_1_1_base_stats.html" title=" " alt="" coords="5,31,88,57"/>
+<area shape="rect" id="Node000001" href="$class_hoco_1_1_samples_1_1_primary_stats.html" title="The Primary Stats for the game world." alt="" coords="144,5,242,32"/>
+<area shape="poly" id="edge2_Node000000_Node000001" title=" " alt="" coords="103,32,143,24,144,30,103,37"/>
+<area shape="rect" id="Node000002" href="$class_hoco_1_1_samples_1_1_secondary_stats.html" title="The Secondary Stats for the game world that are calculated from the Primary Stats." alt="" coords="136,56,250,83"/>
+<area shape="poly" id="edge3_Node000000_Node000002" title=" " alt="" coords="104,51,136,57,135,62,103,56"/>
 </map>

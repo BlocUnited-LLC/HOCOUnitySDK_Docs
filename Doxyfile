@@ -5,7 +5,7 @@
 #---------------------------------------------------------------------------
 DOXYFILE_ENCODING      = UTF-8
 PROJECT_NAME           = "HOCO Unity SDK" 
-PROJECT_NUMBER         = 0.0.14-Alpha
+PROJECT_NUMBER         = 0.0.15-Alpha
 PROJECT_BRIEF          = "A Web3 SDK provided by HoneyComb" 
 PROJECT_LOGO           = ./logo.drawio.svg
 PROJECT_ICON           =

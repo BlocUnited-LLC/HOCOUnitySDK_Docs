@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['livecelldata_0',['LiveCellData',['../class_hoco_1_1_runtime_1_1_live_cell_data.html',1,'Hoco::Runtime']]],
-  ['liveclouddata_1',['LiveCloudData',['../class_hoco_1_1_runtime_1_1_live_cloud_data.html',1,'Hoco::Runtime']]],
-  ['liveplayerdata_2',['LivePlayerData',['../class_hoco_1_1_runtime_1_1_live_player_data.html',1,'Hoco::Runtime']]]
+  ['hocosdkeditorsettings_0',['HocoSDKEditorSettings',['../class_hoco_1_1_editor_1_1_hoco_s_d_k_editor_settings.html',1,'Hoco::Editor']]],
+  ['hocosdkwindow_1',['HocoSDKWindow',['../class_hoco_1_1_editor_1_1_hoco_s_d_k_window.html',1,'Hoco::Editor']]]
 ];

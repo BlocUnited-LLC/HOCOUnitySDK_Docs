@@ -42,7 +42,11 @@ var NAVTREE =
       [ "HOCOUnitySDK", "md__c_1_2_git_projects_2_h_o_c_o_unity_s_d_k_2_assets_2_plugins_2_hoco_s_d_k_2_r_e_a_d_m_e.html#autotoc_md18", null ]
     ] ],
     [ "Namespaces", "namespaces.html", [
-      [ "Namespace List", "namespaces.html", "namespaces_dup" ]
+      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
+      [ "Namespace Members", "namespacemembers.html", [
+        [ "All", "namespacemembers.html", null ],
+        [ "Enumerations", "namespacemembers_enum.html", null ]
+      ] ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
@@ -60,7 +64,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"annotated.html"
+"annotated.html",
+"class_hoco_1_1_samples_1_1_secondary_stats.html#a31b3d24141c85b90a7455fdbc2d81ffd"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
